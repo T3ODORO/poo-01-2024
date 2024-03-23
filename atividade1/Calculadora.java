@@ -4,19 +4,19 @@ public class Calculadora {
     double numA;
     double numB;
 
-    public double somar() {
+    double somar() {
         return numA + numB;
     }
 
-    public double subtrair() {
+    double subtrair() {
         return numA - numB;
     }
 
-    public double multiplicar() {
+    double multiplicar() {
         return numA * numB;
     }
 
-    public double dividir() {
+    double dividir() {
         if (numB != 0) {
             return numA / numB;
         } else {
@@ -25,7 +25,7 @@ public class Calculadora {
         }
     }
 
-    public boolean verificarNumeroPrimo(int n) {
+    boolean verificarNumeroPrimo(int n) {
         if (n <= 1) {
             System.out.println("Digite um número maior que 1");
             return false; 
